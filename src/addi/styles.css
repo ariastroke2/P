@@ -1,0 +1,45 @@
+.bubble{
+    border-radius: 35%;
+    background-color: darkgreen;
+    width: 350px;
+    margin-left:auto;
+    margin-right:auto;
+}
+@media (prefers-reduced-motion: no-preference) {
+    .bubble {
+        animation: enter 1 0.2s Linear;
+    }
+  }
+
+.main{
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    vertical-align: top;
+    width: 8m;
+}
+
+.del{
+    background-color: red;
+    color: white;
+    border:0;
+    vertical-align:middle;
+    text-align: left;
+    margin-left:0px;
+    border-radius: 25%;
+    font-size: 25px;
+    scrollbar-highlight-color: aliceblue;
+}
+
+.cont{
+    margin-top: 5px;
+}
+
+@keyframes enter {
+    from {
+        translate: -1000px;
+      }
+      to {
+        translate: 0px;
+      }
+}
